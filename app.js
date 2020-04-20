@@ -13,7 +13,7 @@ function lunchChecker($scope) {
     var lunchMenu  = document.getElementById('lunch-menu').value;
     if(lunchMenu===""){
       $scope.msg = "PLease enter data first";
-      console.log("En");
+      console.log("PLease enter data first");
     }
     else{
     var result;
@@ -21,12 +21,12 @@ function lunchChecker($scope) {
       console.log(result);
       if(result.length<=3){
       console.log("Enjoy");
-      $scope.msg = "Enjoy";
+      $scope.msg = "Enjoy!";
 
 }
 else{
-  console.log("Too much");
-  $scope.msg = "Too much";
+  console.log("Too much!");
+  $scope.msg = "Too much!";
 }
     }
   };
